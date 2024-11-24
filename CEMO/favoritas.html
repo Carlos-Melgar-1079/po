@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Footer responsive</title>
+    <link rel="icon" href="img/l.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <!-- Logotipo -->
+      <div class="logo">
+        <img src="img/logokriks.png" alt="Logo">
+        
+    </div>
+    </header>
+    <header class="header">
+
+      
+
+
+
+      <div class="logo">
+          <a href="index.html"><img src="img/logokriks.png" alt="Logo de la marca"></a>
+      </div>
+      <nav>
+         <ul class="nav-links">
+              <li><a href="humano.html">humano</a></li>
+              <li><a href="animales.html">animales</a></li>
+              <li><a href="favoritas.html">favoritos</a></li>
+              <li><a href="colaboradores.html">colaboradores</a></li>
+              <li><a href="creador.html">creador</a></li>
+         </ul>            
+      </nav>
+      <a class="btn" href="login.html"><button>LOGIN</button></a>
+      <a class="btn" href="register.html"><button>REGISTER</button></a>
+      <a class="btn" href="#"><button onclick="toggleCart()">Carrito</button></a>
+  </header>
+  <!--cuerpo-->
+
+  <!--parte uno-->
+  <section class="recommended-products">
+    <h2>Seccion para favoritas</h2>
+    <div class="product-grid">
+        <!-- Producto 1 -->
+        <div class="product-card">
+            <div class="discount-label">Ahorrar 3%</div>
+            <img src="img/favoritos/brass.webp" alt="Producto 1">
+            <h3>Brass Knuckles | Batería para Cartucho de Wax 510 | 900 mAh</h3>
+            <p class="price">
+                <span class="current-price">	
+                  $ 249.00</span>
+                
+            </p>
+            <button class="btn-add" onclick="addToCart('Brass Knuckles ', 249)">Agregar al Carrito</button>
+        </div>
+        <!-- Producto 2 -->
+        <div class="product-card">
+            <div class="discount-label">Ahorrar 0%</div>
+            <img src="img/favoritos/caniva.webp" alt="Producto 2">
+            <h3>CANIVA | Batería para Cartucho de Wax 510 | 350 mAh</h3>
+            <p class="price">
+                <span class="current-price">$ 330.00</span>
+                
+            </p>
+            <button class="btn-add" onclick="addToCart('CANIVA', 330)">Agregar al Carrito</button>
+        </div>
+        <!-- Producto 3 -->
+        <div class="product-card">
+          <div class="discount-label">Ahorrar 0%</div>
+          <img src="img/favoritos/blazy.webp" alt="Producto 2">
+          <h3>Blazy Susan | Sarcófago 32 Papeles King Size + 32 Filtros | 1 pieza  </h3>
+          <p class="price">
+              <span class="current-price">$ 99.00</span>
+              
+          </p>
+          <button class="btn-add" onclick="addToCart('Blazy Susan', 99)">Agregar al Carrito</button>
+      </div>
+      <!-- Producto 4 -->
+      <div class="product-card">
+        <div class="discount-label">Ahorrar 4%</div>
+        <img src="img/favoritos/chick.webp" alt="Producto 2">
+        <h3>ChicksVsStigma | Gargantilla 7 Dimensiones</h3>
+        <p class="price">
+            <span class="current-price">$ 750.00</span>
+            
+        </p>
+        <button class="btn-add" onclick="addToCart('ChicksVsStigma', 750)">Agregar al Carrito</button>
+    </div>
+    <!-- Producto 5 -->
+    <div class="product-card">
+      <div class="discount-label">Ahorrar 0%</div>
+      <img src="img/favoritos/susan.webp" alt="Producto 2">
+      <h3>Blazy Susan | Charola Step and Repeat Chica o Mediana | 18 o 27 cm
+      </h3>
+      <p class="price">
+          <span class="current-price">$ 250.00</span>
+          
+      </p>
+      <button class="btn-add" onclick="addToCart('The Brothers Apothec', 500)">Agregar al Carrito</button>
+  </div>
+  
+    </div>
+</section>
+<!--parte uno-->
+
+<!--parte dos-->
+<section class="recommended-products">
+  
+  <div class="product-grid">
+      <!-- Producto 1 -->
+      <div class="product-card">
+          <div class="discount-label">Ahorrar 5%</div>
+          <img src="img/favoritos/b.webp" alt="Producto 1">
+          <h3>Blazy Susan | Baterías para Cartucho de Wax 510 | 650 mAh</h3>
+          <p class="price">
+              <span class="current-price">$ 450.00</span>
+              
+          </p>
+          <button class="btn-add" onclick="addToCart('Blazy Susan ', 450)">Agregar al Carrito</button>
+      </div>
+      <!-- Producto 2 -->
+      <div class="product-card">
+          <div class="discount-label">Ahorrar 0%</div>
+          <img src="img/favoritos/ispire.webp" alt="Producto 2">
+          <h3>Ispire | Bateria GRP para Cartucho de Wax 510 | 400 mAh </h3>
+          <p class="price">
+              <span class="current-price">$ 949.00</span>
+              
+              
+          </p>
+          <button class="btn-add" onclick="addToCart('Ispire', 949)">Agregar al Carrito</button>
+      </div>
+      <!-- Producto 3 -->
+      <div class="product-card">
+        <div class="discount-label">Ahorrar 0%</div>
+        <img src="img/favoritos/su.webp" alt="Producto 2">
+        <h3>Blazy Susan | Hasta 50 Conos Pre Rolados Rosas 1 1/4, 98 mm, King Size ó Shortys | 1 pieza</h3>
+        <p class="price">
+            <span class="current-price">$ 99.00</span>
+            
+        </p>
+        <button class="btn-add" onclick="addToCart('Blazy Susan ', 99)">Agregar al Carrito</button>
+    </div>
+    <!-- Producto 4 -->
+    <div class="product-card">
+      <div class="discount-label">Ahorrar 11%</div>
+      <img src="img/favoritos/grinder.webp" alt="Producto 2">
+      <h3>Blazy Susan | Grinder Moledor | 35 mm</h3>
+      <p class="price">
+          <span class="current-price">$ 239.00</span>
+          <span class="original-price">$ 269.00</span>
+      </p>
+      <button class="btn-add" onclick="addToCart('Blazy Susan', 239)">Agregar al Carrito</button>
+  </div>
+  <!-- Producto 5 -->
+  <div class="product-card">
+    <div class="discount-label">Ahorrar 0%</div>
+    <img src="img/favoritos/cart.webp" alt="Producto 2">
+    <h3>Cart Friends | Batería para Cartucho de Wax | 1 pza</h3>
+    <p class="price">
+        <span class="current-price">$ 555.00</span>
+        
+    </p>
+    <button class="btn-add" onclick="addToCart('Cart Friends ', 555)">Agregar al Carrito</button>
+</div>
+
+  </div>
+</section>
+<!--parte dos-->
+
+<!--parte tres-->
+<section class="recommended-products">
+  
+  <div class="product-grid">
+      <!-- Producto 1 -->
+      <div class="product-card">
+          <div class="discount-label">Ahorrar38%</div>
+          <img src="img/favoritos/high.webp" alt="Producto 1">
+          <h3>High Hemp | Blunts Hemp Wraps | 1 pieza</h3>
+          <p class="price">
+              <span class="current-price">$ 50.00</span>
+              <span class="original-price">$ 80.00</span>
+          </p>
+          <button class="btn-add" onclick="addToCart('High Hemp ', 50)">Agregar al Carrito</button>
+      </div>
+      <!-- Producto 2 -->
+      <div class="product-card">
+          <div class="discount-label">Ahorrar 0%</div>
+          <img src="img/favoritos/RAW.webp" alt="Producto 2">
+          <h3>RAW | Piedra Humidificadora Hydrostone | 1 pieza</h3>
+          <p class="price">
+              <span class="current-price">$ 150.00</span>
+              
+              
+          </p>
+          <button class="btn-add" onclick="addToCart('RAW ', 150)">Agregar al Carrito</button>
+      </div>
+      <!-- Producto 3 -->
+      <div class="product-card">
+        <div class="discount-label">Ahorrar 17%</div>
+        <img src="img/favoritos/mantra.webp" alt="Producto 2">
+        <h3>Mantra Papers | 33 Papeles para Rolar de ¼" | 1 pieza</h3>
+        <p class="price">
+            <span class="current-price">$ 38.00</span>
+            <span class="original-price">$ 46.00</span>
+        </p>
+        <button class="btn-add" onclick="addToCart('Mantra Papers ', 38)">Agregar al Carrito</button>
+    </div>
+    <!-- Producto 4 -->
+    <div class="product-card">
+      <div class="discount-label">Ahorrar 0%</div>
+      <img src="img/favoritos/cones.webp" alt="Producto 2">
+      <h3>Blazy Susan | Hasta 50 Conos Pre Rolados Morados 1 1/4, 98 mm, King Size ó Shortys | 1 pieza</h3>
+      <p class="price">
+          <span class="current-price">$ 79.00</span>
+          
+      </p>
+      <button class="btn-add" onclick="addToCart('Blazy Susan', 79)">Agregar al Carrito</button>
+  </div>
+  <!-- Producto 5 -->
+  <div class="product-card">
+    <div class="discount-label">Ahorrar 0%</div>
+    <img src="img/favoritos/purize.webp" alt="Producto 2">
+    <h3>Blazy Susan X Purize | 50 Filtros con Carbón Activado | 1 pieza</h3>
+    <p class="price">
+        <span class="current-price">$ 240.00</span>
+        
+    </p>
+    <button class="btn-add" onclick="addToCart('Blazy Susan X Purize  ', 240)">Agregar al Carrito</button>
+</div>
+
+  </div>
+</section>
+<!--parte tres-->
+
+<!--parte cuatro-->
+<section class="recommended-products">
+  
+  <div class="product-grid">
+      <!-- Producto 1 -->
+      <div class="product-card">
+          <div class="discount-label">Ahorrar 5%</div>
+          <img src="img/favoritos/in.webp" alt="Producto 1">
+          <h3>Ispire | Bateria EZD para Cartucho de Wax 510 | 280 mAh</h3>
+          <p class="price">
+              <span class="current-price">$ 499.00</span>
+              
+          </p>
+          <button class="btn-add" onclick="addToCart('Ispire ', 499)">Agregar al Carrito</button>
+      </div>
+      <!-- Producto 2 -->
+      <div class="product-card">
+          <div class="discount-label">Ahorrar 30%</div>
+          <img src="img/favoritos/bulldog.webp" alt="Producto 2">
+          <h3>The Bulldog | Charola de Acero | 18 ó 28 cm</h3>
+          <p class="price">
+              <span class="current-price">$ 245.00</span>
+              <span class="original-price">$ 349.00</span>
+              
+          </p>
+          <button class="btn-add" onclick="addToCart('The Bulldog ', 245)">Agregar al Carrito</button>
+      </div>
+      <!-- Producto 3 -->
+      <div class="product-card">
+        <div class="discount-label">Ahorrar 0%</div>
+        <img src="img/favoritos/stnr.webp" alt="Producto 2">
+        <h3>STNR | Galletas Crispy Blunts THC-A 50 mg/pza | 2 píezas</h3>
+        <p class="price">
+            <span class="current-price">$ 299.00</span>
+            
+        </p>
+        <button class="btn-add" onclick="addToCart('STNR ', 299)">Agregar al Carrito</button>
+    </div>
+    <!-- Producto 4 -->
+    <div class="product-card">
+      <div class="discount-label">Ahorrar 16%</div>
+      <img src="img/favoritos/paper.webp" alt="Producto 2">
+      <h3>Smoking Paper | 33 Papeles para rolar King Size | 1 pieza</h3>
+      <p class="price">
+          <span class="current-price">$ 32.00</span>
+          <span class="original-price">$ 38.00</span>
+      </p>
+      <button class="btn-add" onclick="addToCart('Smoking Paper', 32)">Agregar al Carrito</button>
+  </div>
+  <!-- Producto 5 -->
+  <div class="product-card">
+    <div class="discount-label">Ahorrar 0%</div>
+    <img src="img/favoritos/aspire.webp" alt="Producto 2">
+    <h3> ASPIRE| Batería para Eliquid Minican 350 mAh + Pod | 1 pieza</h3>
+    <p class="price">
+        <span class="current-price">$ 518.70</span>
+        
+    </p>
+    <button class="btn-add" onclick="addToCart('ASPIRE ', 518)">Agregar al Carrito</button>
+</div>
+
+  </div>
+</section>
+<!--parte cuatro-->
+
+  <!--cuerpo-->
+  <div class="cart-container" id="cart" style="display: none;">
+    <div class="cart-header">
+        <h2>Tu Carrito</h2>
+        <span class="cart-close" onclick="toggleCart()">×</span>
+    </div>
+    <div class="cart-items" id="cartItems">
+        <!-- Items del carrito se agregarán aquí dinámicamente -->
+    </div>
+    <div class="cart-total" id="cartTotal">Total: $0</div>
+    <button class="btn-clear-cart" onclick="clearCart()">Vaciar carrito</button>
+    <button class="btn-checkout" onclick="checkout()">Realizar compra</button>
+    </div>
+
+    <!-- Modal de recibo -->
+    <div class="receipt-modal" id="receipt-modal" style="display: none;">
+    <div class="receipt-content">
+        <button id="close-modal">Cerrar</button>
+        <h2>Recibo de compra</h2>
+        <div id="receipt-details"></div>
+    </div>
+    </div>
+  <!--el carrito-->
+
+    <footer class="footer">
+      <ul class="social-icon">
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="mail-outline"></ion-icon>
+          </a>
+        </li>
+      </ul>
+      <p class="text">@2024 kriks | Todos los derechos reservados</p>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      let cart = [];
+      let total = 0;
+
+      // Toggle carrito visibility
+      function toggleCart() {
+          const cartContainer = document.getElementById('cart');
+          cartContainer.style.display = cartContainer.style.display === 'block' ? 'none' : 'block';
+      }
+
+      // Add product to cart
+      function addToCart(product, price) {
+          const existingProduct = cart.find(item => item.product === product);
+          if (existingProduct) {
+          existingProduct.quantity += 1;
+          } else {
+          cart.push({ product, price, quantity: 1 });
+          }
+          total += price;
+          updateCart();
+      }
+
+      // Clear the cart
+      function clearCart() {
+          cart = [];
+          total = 0;
+          updateCart();
+      }
+
+      // Update the cart UI
+      function updateCart() {
+          const cartItems = document.getElementById('cartItems');
+          const cartTotal = document.getElementById('cartTotal');
+
+          cartItems.innerHTML = cart.map(item => `
+          <div class="cart-item">
+              <span>${item.product} x${item.quantity}</span>
+              <span>$${(item.price * item.quantity).toFixed(2)}</span>
+              <button onclick="updateQuantity('${item.product}', 1)">+</button>
+              <button onclick="updateQuantity('${item.product}', -1)">-</button>
+          </div>
+          `).join('');
+
+          cartTotal.innerHTML = `Total: $${total.toFixed(2)}`;
+      }
+
+      // Update product quantity
+      function updateQuantity(product, change) {
+          const item = cart.find(p => p.product === product);
+          if (item) {
+          item.quantity += change;
+          if (item.quantity <= 0) {
+              cart = cart.filter(p => p !== item);
+          }
+          total += change * item.price;
+          updateCart();
+          }
+      }
+
+      // Handle checkout
+      function checkout() {
+          if (cart.length === 0) {
+          alert("El carrito está vacío.");
+          return;
+          }
+
+          const receipt = cart.map(item => `
+          ${item.product} x ${item.quantity} = $${(item.price * item.quantity).toFixed(2)}
+          `).join('\n');
+
+          const totalAmount = cart.reduce((acc, item) => acc + (item.price * item.quantity), 0);
+          document.getElementById('receipt-details').innerHTML = `
+          <pre>${receipt}</pre>
+          <hr>
+          <strong>Total: $${totalAmount.toFixed(2)}</strong>
+          `;
+          document.getElementById('receipt-modal').style.display = 'flex';
+      }
+
+      // Close the receipt modal
+      document.getElementById('close-modal').addEventListener('click', () => {
+          document.getElementById('receipt-modal').style.display = 'none';
+      });
+      </script>
+  </body>
+</html>

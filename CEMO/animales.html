@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Footer responsive</title>
+    <link rel="icon" href="img/l.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <!-- Logotipo -->
+      <div class="logo">
+        <img src="img/logokriks.png" alt="Logo">
+        
+    </div>
+    </header>
+    <header class="header">
+
+      
+
+
+
+      <div class="logo">
+          <a href="index.html"><img src="img/logokriks.png" alt="Logo de la marca"></a>
+      </div>
+      <nav>
+          <ul class="nav-links">
+              <li><a href="index.html">inicio</a></li>
+              <li><a href="animales.html">animales</a></li>
+              <li><a href="favoritas.html">favoritos</a></li>
+              <li><a href="colaboradores.html">colaboradores</a></li>
+              <li><a href="creador.html">creador</a></li>
+          </ul>            
+      </nav>
+      <a class="btn" href="login.html"><button>LOGIN</button></a>
+      <a class="btn" href="register.html"><button>REGISTER</button></a>
+      <a class="btn" href="#"><button onclick="toggleCart()">Carrito</button></a>
+  </header>
+  <!--cuerpo-->
+
+  <!--parte uno-->
+  <section class="recommended-products">
+    <h2>Seccion para Humano</h2>
+    <div class="product-grid">
+        <!-- Producto 1 -->
+        <div class="product-card">
+            <div class="discount-label">Ahorrar 64%</div>
+            <img src="img/animales/pats 1.webp" alt="Producto 1">
+            <h3>CBD Fx | Aceite CBD para Mascotas E. Amplio 8, 16 ó 33 mg/ml | 30 ml</h3>
+            <p class="price">
+                <span class="current-price">	
+                  $625.00</span>
+                <span class="original-price">$ 1,750.00</span>
+            </p>
+            <button class="btn-add" onclick="addToCart('CBD Fx ', 625)">Agregar al Carrito</button>
+        </div>
+        <!-- Producto 2 -->
+        <div class="product-card">
+            <div class="discount-label">Ahorrar 13%</div>
+            <img src="img/animales/Zend.webp " alt="Producto 2">
+            <h3>ZenBD | Aceite CBD para Mascotas E. Amplio 500 mg | 30 ml</h3>
+            <p class="price">
+                <span class="current-price">$ 649.00</span>
+                <span class="original-price">$ 749.00</span>
+            </p>
+            <button class="btn-add" onclick="addToCart('ZenBD', 349)">Agregar al Carrito</button>
+        </div>
+        <!-- Producto 3 -->
+        <div class="product-card">
+          <div class="discount-label">Ahorrar 0%</div>
+          <img src="img/animales/waggys.webp" alt="Producto 2">
+          <h3>Waggy's | Aceite para Gatos CBD Espectro Amplio 375 mg | 30 ml  </h3>
+          <p class="price">
+              <span class="current-price">$ 549.00</span>
+              
+          </p>
+          <button class="btn-add" onclick="addToCart('Waggys', 549)">Agregar al Carrito</button>
+      </div>
+      <!-- Producto 4 -->
+      <div class="product-card">
+        <div class="discount-label">Ahorrar 20%</div>
+        <img src="img/animales/raw.webp" alt="Producto 2">
+        <h3>Canna Raw | Premios CBD para Mascotas 360 mg | 180 piezas</h3>
+        <p class="price">
+            <span class="current-price">$ 370.00</span>
+            <span class="original-price">$ 464.00</span>
+        </p>
+        <button class="btn-add" onclick="addToCart('Canna Raw', 370)">Agregar al Carrito</button>
+    </div>
+    <!-- Producto 5 -->
+    <div class="product-card">
+      <div class="discount-label">Ahorrar 13%</div>
+      <img src="img/animales/wag.webp" alt="Producto 2">
+      <h3>Waggy's | Aceite CBD para Perros Espectro Amplio Hasta 1500 mg | 30 ml</h3>
+      <p class="price">
+          <span class="current-price">$ $ 549.00</span>
+          
+      </p>
+      <button class="btn-add" onclick="addToCart('Waggys', 549)">Agregar al Carrito</button>
+  </div>
+  
+    </div>
+</section>
+<!--parte uno-->
+
+<!--parte dos-->
+<section class="recommended-products">
+  
+  <div class="product-grid">
+      <!-- Producto 1 -->
+      <div class="product-card">
+          <div class="discount-label">Ahorrar 5%</div>
+          <img src="img/animales/sun hem.webp" alt="Producto 1">
+          <h3>SunState Hemp | Tintura CBD para Mascotas E. Amplio 150 ó 300 mg | 30 ml</h3>
+          <p class="price">
+              <span class="current-price">$ 800.00</span>
+              
+          </p>
+          <button class="btn-add" onclick="addToCart('SunState Hemp ', 800)">Agregar al Carrito</button>
+      </div>
+      <!-- Producto 2 -->
+      <div class="product-card">
+          <div class="discount-label">Ahorrar 30%</div>
+          <img src="img/animales/za.webp" alt="Producto 2">
+          <h3>Zamani | Tintura CBD para Mascota 500 mg de Tocino | 30 ml</h3>
+          <p class="price">
+              <span class="current-price">$ 630.00</span>
+              <span class="original-price">$ 900.00</span>
+              
+          </p>
+          <button class="btn-add" onclick="addToCart('Zamani', 630)">Agregar al Carrito</button>
+      </div>
+      <!-- Producto 3 -->
+      <div class="product-card">
+        <div class="discount-label">Ahorrar 0%</div>
+        <img src="img/animales/f.webp" alt="Producto 2">
+        <h3>CBD Fx | Aceite CBD para Mascotas E. Amplio Hasta 1000 mg sabor Pollo | 30 ml
+        </h3>
+        <p class="price">
+            <span class="current-price">$ 999.00</span>
+            
+        </p>
+        <button class="btn-add" onclick="addToCart('CBD Fx ', 999)">Agregar al Carrito</button>
+    </div>
+    <!-- Producto 4 -->
+    <div class="product-card">
+      <div class="discount-label">Ahorrar 0%</div>
+      <img src="img/animales/ese.webp" alt="Producto 2">
+      <h3>Esencia Mental | Aceite CBD para Mascotas 450 ó 900 mg | 30 ml</h3>
+      <p class="price">
+          <span class="current-price">$ 499.00</span>
+          
+      </p>
+      <button class="btn-add" onclick="addToCart('Esencia Mental', 649)">Agregar al Carrito</button>
+  </div>
+  <!-- Producto 5 -->
+  <div class="product-card">
+    <div class="discount-label">Ahorrar 25%</div>
+    <img src="img/animales/r.webp" alt="Producto 2">
+    <h3>Canna Raw | Tintura CBD para Mascotas E. Completo 500, 1000, 3000 mg/ml</h3>
+    <p class="price">
+        <span class="current-price">	$ 348.00</span>
+        <span class="original-price">$ 464.00</span>
+    </p>
+    <button class="btn-add" onclick="addToCart('Canna Raw  ', 348)">Agregar al Carrito</button>
+</div>
+
+  </div>
+</section>
+<!--parte dos-->
+
+<!--parte tres-->
+<section class="recommended-products">
+  
+  <div class="product-grid">
+      <!-- Producto 1 -->
+      <div class="product-card">
+          <div class="discount-label">Ahorrar 21%</div>
+          <img src="img/animales/premios.webp" alt="Producto 1">
+          <h3>Canna Raw | Premios CBD para Mascotas 5 mg/pza | 30 piezas</h3>
+          <p class="price">
+              <span class="current-price">$ 320.00</span>
+              <span class="original-price">$ 406.00 </span>
+          </p>
+          <button class="btn-add" onclick="addToCart('Canna Raw ', 320)">Agregar al Carrito</button>
+      </div>
+      <!-- Producto 2 -->
+      <div class="product-card">
+          <div class="discount-label">Ahorrar 0%</div>
+          <img src="img/animales/essencial.webp" alt="Producto 2">
+          <h3>CBD Essentials | Aceite CBD para Mascotas 500 mg | 30 ml</h3>
+          <p class="price">
+              <span class="current-price">$ 1,440.00  </span>
+              
+              
+          </p>
+          <button class="btn-add" onclick="addToCart('zamani', 1190)">Agregar al Carrito</button>
+      </div>
+      <!-- Producto 3 -->
+      <div class="product-card">
+        <div class="discount-label">Ahorrar 13%</div>
+        <img src="img/animales/hemp.webp" alt="Producto 2">
+        <h3>SunState Hemp | Treats CBD para Mascotas E. Amplio 100 ó 1200 mg | Hasta 350 piezas</h3>
+        <p class="price">
+            <span class="current-price">$ 699.00</span>
+            <span class="original-price">$ 799.00 </span>
+        </p>
+        <button class="btn-add" onclick="addToCart('SunState Hemp ', )">Agregar al Carrito</button>
+    </div>
+    <!-- Producto 4 -->
+    <div class="product-card">
+      <div class="discount-label">Ahorrar 0%</div>
+      <img src="img/humano/CBD fx.webp" alt="Producto 2">
+      <h3>CBD Fx | Balm Stick CBD 750 mg | 60 ml</h3>
+      <p class="price">
+          <span class="current-price">$ 399.00</span>
+          
+      </p>
+      <button class="btn-add" onclick="addToCart('CBD FX', 399)">Agregar al Carrito</button>
+  </div>
+  <!-- Producto 5 -->
+  <div class="product-card">
+    <div class="discount-label">Ahorrar 0%</div>
+    <img src="img/humano/cana raw.webp" alt="Producto 2">
+    <h3>Canna Raw | Proteina de Hemp con Hongos Japoneses 450 gr | 1 pieza
+    </h3>
+    <p class="price">
+        <span class="current-price">$ 1,015.00</span>
+        
+    </p>
+    <button class="btn-add" onclick="addToCart('Canna Raw ', 1015)">Agregar al Carrito</button>
+</div>
+
+  </div>
+</section>
+<!--parte tres-->
+
+<!--parte cuatro-->
+
+<!--parte cuatro-->
+
+  <!--cuerpo-->
+  <!--el carrito-->
+  <div class="cart-container" id="cart" style="display: none;">
+    <div class="cart-header">
+        <h2>Tu Carrito</h2>
+        <span class="cart-close" onclick="toggleCart()">×</span>
+    </div>
+    <div class="cart-items" id="cartItems">
+        <!-- Items del carrito se agregarán aquí dinámicamente -->
+    </div>
+    <div class="cart-total" id="cartTotal">Total: $0</div>
+    <button class="btn-clear-cart" onclick="clearCart()">Vaciar carrito</button>
+    <button class="btn-checkout" onclick="checkout()">Realizar compra</button>
+    </div>
+
+    <!-- Modal de recibo -->
+    <div class="receipt-modal" id="receipt-modal" style="display: none;">
+    <div class="receipt-content">
+        <button id="close-modal">Cerrar</button>
+        <h2>Recibo de compra</h2>
+        <div id="receipt-details"></div>
+    </div>
+    </div>
+  <!--el carrito-->
+
+    <footer class="footer">
+      <ul class="social-icon">
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="mail-outline"></ion-icon>
+          </a>
+        </li>
+      </ul>
+      <p class="text">@2024 kriks | Todos los derechos reservados</p>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      let cart = [];
+      let total = 0;
+
+      // Toggle carrito visibility
+      function toggleCart() {
+          const cartContainer = document.getElementById('cart');
+          cartContainer.style.display = cartContainer.style.display === 'block' ? 'none' : 'block';
+      }
+
+      // Add product to cart
+      function addToCart(product, price) {
+          const existingProduct = cart.find(item => item.product === product);
+          if (existingProduct) {
+          existingProduct.quantity += 1;
+          } else {
+          cart.push({ product, price, quantity: 1 });
+          }
+          total += price;
+          updateCart();
+      }
+
+      // Clear the cart
+      function clearCart() {
+          cart = [];
+          total = 0;
+          updateCart();
+      }
+
+      // Update the cart UI
+      function updateCart() {
+          const cartItems = document.getElementById('cartItems');
+          const cartTotal = document.getElementById('cartTotal');
+
+          cartItems.innerHTML = cart.map(item => `
+          <div class="cart-item">
+              <span>${item.product} x${item.quantity}</span>
+              <span>$${(item.price * item.quantity).toFixed(2)}</span>
+              <button onclick="updateQuantity('${item.product}', 1)">+</button>
+              <button onclick="updateQuantity('${item.product}', -1)">-</button>
+          </div>
+          `).join('');
+
+          cartTotal.innerHTML = `Total: $${total.toFixed(2)}`;
+      }
+
+      // Update product quantity
+      function updateQuantity(product, change) {
+          const item = cart.find(p => p.product === product);
+          if (item) {
+          item.quantity += change;
+          if (item.quantity <= 0) {
+              cart = cart.filter(p => p !== item);
+          }
+          total += change * item.price;
+          updateCart();
+          }
+      }
+
+      // Handle checkout
+      function checkout() {
+          if (cart.length === 0) {
+          alert("El carrito está vacío.");
+          return;
+          }
+
+          const receipt = cart.map(item => `
+          ${item.product} x ${item.quantity} = $${(item.price * item.quantity).toFixed(2)}
+          `).join('\n');
+
+          const totalAmount = cart.reduce((acc, item) => acc + (item.price * item.quantity), 0);
+          document.getElementById('receipt-details').innerHTML = `
+          <pre>${receipt}</pre>
+          <hr>
+          <strong>Total: $${totalAmount.toFixed(2)}</strong>
+          `;
+          document.getElementById('receipt-modal').style.display = 'flex';
+      }
+
+      // Close the receipt modal
+      document.getElementById('close-modal').addEventListener('click', () => {
+          document.getElementById('receipt-modal').style.display = 'none';
+      });
+      </script>
+  </body>
+</html>
